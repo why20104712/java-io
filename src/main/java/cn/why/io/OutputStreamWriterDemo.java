@@ -4,6 +4,7 @@ import java.io.*;
 
 /**
  * 字节流与字符流的转化
+ * 字符流多用于中文的处理，一般大多使用字节流
  */
 public class OutputStreamWriterDemo {
 
