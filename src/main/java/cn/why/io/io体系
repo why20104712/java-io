@@ -1,0 +1,24 @@
+字节流
+    InputStream
+    OutputStream
+字符流
+    Reader
+    Writer
+内存流
+    ByteArrayInputStream
+    ByteArrayOutputStream
+    ByteArrayReader
+    ByteArrayWriter
+打印流
+    PrintStream  PrintWriter  可以打印输出各种数据类型的数据，同时可以格式化输出数据（String类在JDK1.5之后，新增了格式化输出的方法）
+    而OutputStream只能打印字节数据，想打印其他数据类型，必须进行转化操作，PrintStream其实就是在内部进行了对应的转化
+
+System对IO的支持
+    三种常量
+    PrintStream out//信息输出
+    PrintStream err//错误输出
+    InputStream in//从标准输入设备输入
+
+
+
+
