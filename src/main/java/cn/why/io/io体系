@@ -13,6 +13,12 @@
     PrintStream  PrintWriter  可以打印输出各种数据类型的数据，同时可以格式化输出数据（String类在JDK1.5之后，新增了格式化输出的方法）
     而OutputStream只能打印字节数据，想打印其他数据类型，必须进行转化操作，PrintStream其实就是在内部进行了对应的转化
 
+缓冲流
+BufferedReader：此类提供一个可以读取一行内容，返回字符串，方便使用readLine()
+BufferedInputStream
+
+
+
 System对IO的支持
     三种常量
     PrintStream out//信息输出
