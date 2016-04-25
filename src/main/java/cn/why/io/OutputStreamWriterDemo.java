@@ -10,7 +10,7 @@ public class OutputStreamWriterDemo {
 
     public static void main(String[] args) throws IOException {
         //定义文件路径
-        File file = new File("E:" + File.separator + "demo" + File.separator + "output.txt");
+        File file = new File("E:" + File.separator + "demo" + File.separator + "source.txt");
         if (!file.getParentFile().exists()) {
             file.getParentFile().mkdirs();
         }
